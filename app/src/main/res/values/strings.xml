@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IA Postres APP</string>
+    <string name="iam">Escribe un mensaje</string>
+    <string name="dbe">Botón Enviar</string>
+    <string name="dba">Botón Audio</string>
+    <string name="mia">Hola, soy la Inteligencia Artificial !</string>
+    <string name="mc">Hola !</string>
+</resources>

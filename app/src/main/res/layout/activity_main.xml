@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clipToPadding="false"
+    android:focusableInTouchMode="true"
+    android:background="#c5c5c3"
+    android:padding="22dp"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/contenedor_chat"
+        android:layout_weight="2"
+        android:divider="#fff"
+        android:background="#d2d2d2"
+        android:layout_marginBottom="12dp"
+        android:layout_height="0dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Caja para escribir mensajes en el Chat -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="10dp"
+            android:elevation="2dp"
+            android:layout_centerVertical="true">
+            <EditText
+                android:id="@+id/caja_chat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_marginEnd="70dp"
+                android:paddingHorizontal="20dp"
+                android:layout_marginHorizontal="5dp"
+                android:background="@drawable/estilo_caja_texto"
+                android:hint="@string/iam"
+                android:inputType="text"
+                android:textSize="18sp"/>
+
+            <!-- Botón para enviar mensaje de texto en el Chat -->
+            <ImageButton
+                android:id="@+id/enviar_img"
+                android:layout_width="43dp"
+                android:layout_height="43dp"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/dbe"
+                android:padding="3dp"
+                android:layout_marginVertical="3dp"
+                android:scaleType="fitCenter"
+                android:layout_marginStart="188dp"
+                android:src="@drawable/icono_enviar" />
+
+        </RelativeLayout>
+
+        <!-- Botón para enviar mensaje de audio en el Chat -->
+        <RelativeLayout
+            android:id="@+id/contenedor_btn_microfono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="10dp"
+            android:elevation="4dp">
+
+            <ImageButton
+                android:id="@+id/microfono_img"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_centerVertical="true"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/dba"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icono_microfono" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

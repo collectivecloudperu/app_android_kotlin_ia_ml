@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/texto_ia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/ia_chat"
+        android:elevation="2dp"
+        android:padding="8dp"
+        android:text="@string/mia"
+        android:textColor="#212121" />
+
+    <TextView
+        android:id="@+id/texto_cliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/cliente_chat"
+        android:elevation="2dp"
+        android:padding="8dp"
+        android:text="@string/mc"
+        android:textColor="#fff" />
+
+</RelativeLayout>

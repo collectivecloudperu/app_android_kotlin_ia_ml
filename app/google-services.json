@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "582408684328",
+    "firebase_url": "https://restaurante-rmhaow.firebaseio.com",
+    "project_id": "restaurante-rmhaow",
+    "storage_bucket": "restaurante-rmhaow.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:582408684328:android:c63d0c7a5cf08d71ea861d",
+        "android_client_info": {
+          "package_name": "com.example.restbot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "582408684328-f4e1jf2vdef4iu4u1t9d2eujur74v0ll.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.restbot",
+            "certificate_hash": "e132b1c6fefb9b8e1382d418dafa50c95aacef65"
+          }
+        },
+        {
+          "client_id": "582408684328-b4cqq2k7004mh1h3b17thme250u26c8f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXSOywQngZu969BNXTr1bTNV5oZ0TawUQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "582408684328-b4cqq2k7004mh1h3b17thme250u26c8f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
